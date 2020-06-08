@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Target
+  - Button
+  - HomingMissile
+  - Bullet
+  - Saber
+  - RedHomingMissile
+  - BlueHomingMissile
+  - RedSaber
+  - BlueSaber
+  - PlayerTarget
+  - BlueBullet
+  - RedBullet
+  - BlueWalls
+  - RedWalls
+  - RedCubes
+  - BlueCubes
+  - Earth
+  - Moon
+  - AudioManager
+  - Alien
+  - GameManager
+  - WallAudio
+  - TimeManager
+  - UIManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Grabbable
+  - Blue Cubes
+  - Red Cubes
+  - Blue Enemies
+  - Red Enemies
+  - Red Saber
+  - Blue Saber
+  - Blue Walls
+  - Red Walls
+  - Blue Bullets
+  - Red Bullets
+  - Asteroids
+  - Alien
+  - Blue PowerUp
+  - Red PowerUp
+  - Health PowerUp
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

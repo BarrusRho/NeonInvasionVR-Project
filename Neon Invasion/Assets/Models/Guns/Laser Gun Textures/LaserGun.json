@@ -1,0 +1,52 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 8.8100004196167,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.699999988079071,
+                        0.30000001192092896,
+                        0.30000001192092896
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.10000000149011612,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "circles": {
+            "shader": "Main shader"
+        },
+        "glow": {
+            "shader": "Main shader"
+        },
+        "gun": {
+            "shader": "Main shader"
+        },
+        "radar": {
+            "shader": "Main shader"
+        },
+        "wrinkles": {
+            "shader": "Main shader"
+        }
+    }
+}
